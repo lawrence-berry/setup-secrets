@@ -1,0 +1,2 @@
+# Never commit a real secrets file — only the template lives here.
+secrets.sh
