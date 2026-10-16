@@ -1,5 +1,7 @@
 # setup-secrets
 
+<img src="public/icon.png" alt="" width="96">
+
 Bootstraps a `~/.secrets/secrets.sh` for machine-local secrets (API keys, tokens) and sources it from your shell. Only the **template** lives here — your real secrets never enter version control.
 
 ## Install
