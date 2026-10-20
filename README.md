@@ -5,26 +5,17 @@
 <p align="center"><b>A machine-local ~/.secrets/secrets.sh for API keys and tokens, sourced from your shell. Only the template is in version control.</b></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/macOS-27-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 27" />
-  <img src="https://img.shields.io/badge/Linux-Ubuntu%2024.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Linux Ubuntu 24.04" />
+  <img src="https://img.shields.io/badge/macOS-27%20%C2%B7%20daily%20use-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 27 · daily use" />
+  <img src="https://img.shields.io/badge/Shell-bash%20%C2%B7%20zsh-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell bash · zsh" />
   <img src="https://img.shields.io/badge/Shell-POSIX%20sh-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell POSIX sh" />
-  <img src="https://img.shields.io/badge/Secrets-never%20committed-B60205?style=for-the-badge&logo=1password&logoColor=white" alt="Secrets never committed" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/lawrence-berry/setup-secrets/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/lawrence-berry/setup-secrets/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI" alt="CI status" /></a>
+  <a href="https://github.com/lawrence-berry/setup-secrets/actions/workflows/macos.yml"><img src="https://img.shields.io/github/actions/workflow/status/lawrence-berry/setup-secrets/macos.yml?branch=main&style=for-the-badge&logo=apple&logoColor=white&label=macOS%2015" alt="macOS 15 CI status" /></a>
+  <a href="https://github.com/lawrence-berry/setup-secrets/actions/workflows/linux.yml"><img src="https://img.shields.io/github/actions/workflow/status/lawrence-berry/setup-secrets/linux.yml?branch=main&style=for-the-badge&logo=ubuntu&logoColor=white&label=Ubuntu%2024.04" alt="Ubuntu 24.04 CI status" /></a>
 </p>
 
 Bootstraps a `~/.secrets/secrets.sh` for machine-local secrets (API keys, tokens) and sources it from your shell. Only the **template** lives here — your real secrets never enter version control.
-
-## Supported versions
-
-| Component | Version | Status |
-|---|---|---|
-| macOS | 27 (Apple Silicon) | Used daily |
-| macOS | 15 | CI |
-| Ubuntu | 24.04 | CI |
-| Shell | `/bin/sh` (POSIX) to install; bash or zsh to source | ShellCheck in CI |
 
 ## Install
 
